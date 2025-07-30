@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\Users\ANWAR\Documents\01. SERKOM\SERKOM2\ListrikPascabayar\app\Http\Controllers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.10" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.10" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.10" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">C:\Users\ANWAR\Documents\01. SERKOM\SERKOM2\ListrikPascabayar\app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Http</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Controllers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#13">App\Http\Controllers\Auth\PelangganAuthController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TarifController.php.html#10">App\Http\Controllers\TarifController</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#15">App\Http\Controllers\PelangganDashboardController</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="UserController.php.html#11">App\Http\Controllers\UserController</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#10">App\Http\Controllers\PenggunaanController</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="PelangganController.php.html#11">App\Http\Controllers\PelangganController</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="TagihanController.php.html#13">App\Http\Controllers\TagihanController</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="PembayaranController.php.html#13">App\Http\Controllers\PembayaranController</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Auth/UserAuthController.php.html#9">App\Http\Controllers\Auth\UserAuthController</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="TarifController.php.html#10">App\Http\Controllers\TarifController</a></td><td class="text-right">70</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#15">App\Http\Controllers\PelangganDashboardController</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="PelangganController.php.html#11">App\Http\Controllers\PelangganController</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#10">App\Http\Controllers\PenggunaanController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#13">App\Http\Controllers\Auth\PelangganAuthController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TagihanController.php.html#13">App\Http\Controllers\TagihanController</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="PembayaranController.php.html#13">App\Http\Controllers\PembayaranController</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="UserController.php.html#11">App\Http\Controllers\UserController</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Auth/UserAuthController.php.html#9">App\Http\Controllers\Auth\UserAuthController</a></td><td class="text-right">9</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#20"><abbr title="App\Http\Controllers\Auth\PelangganAuthController::showLoginForm">showLoginForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#32"><abbr title="App\Http\Controllers\Auth\PelangganAuthController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#61"><abbr title="App\Http\Controllers\Auth\PelangganAuthController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PelangganController.php.html#32"><abbr title="App\Http\Controllers\PelangganController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PembayaranController.php.html#115"><abbr title="App\Http\Controllers\PembayaranController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#89"><abbr title="App\Http\Controllers\PenggunaanController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#99"><abbr title="App\Http\Controllers\PenggunaanController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagihanController.php.html#101"><abbr title="App\Http\Controllers\TagihanController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagihanController.php.html#109"><abbr title="App\Http\Controllers\TagihanController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TarifController.php.html#76"><abbr title="App\Http\Controllers\TarifController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.php.html#29"><abbr title="App\Http\Controllers\UserController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.php.html#66"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserController.php.html#75"><abbr title="App\Http\Controllers\UserController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TarifController.php.html#32"><abbr title="App\Http\Controllers\TarifController::create">create</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#159"><abbr title="App\Http\Controllers\PenggunaanController::destroy">destroy</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="TarifController.php.html#12"><abbr title="App\Http\Controllers\TarifController::index">index</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="TarifController.php.html#119"><abbr title="App\Http\Controllers\TarifController::destroy">destroy</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#81"><abbr title="App\Http\Controllers\PelangganDashboardController::riwayatPembayaran">riwayatPembayaran</abbr></a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="PelangganController.php.html#140"><abbr title="App\Http\Controllers\PelangganController::destroy">destroy</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="TagihanController.php.html#135"><abbr title="App\Http\Controllers\TagihanController::destroy">destroy</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#47"><abbr title="App\Http\Controllers\PelangganDashboardController::tagihanSaya">tagihanSaya</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="UserController.php.html#121"><abbr title="App\Http\Controllers\UserController::destroy">destroy</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="PembayaranController.php.html#170"><abbr title="App\Http\Controllers\PembayaranController::destroy">destroy</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Auth/UserAuthController.php.html#51"><abbr title="App\Http\Controllers\Auth\UserAuthController::logout">logout</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="PelangganController.php.html#82"><abbr title="App\Http\Controllers\PelangganController::edit">edit</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="TarifController.php.html#47"><abbr title="App\Http\Controllers\TarifController::store">store</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="TarifController.php.html#90"><abbr title="App\Http\Controllers\TarifController::update">update</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#127"><abbr title="App\Http\Controllers\PelangganDashboardController::profilSaya">profilSaya</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="PembayaranController.php.html#58"><abbr title="App\Http\Controllers\PembayaranController::store">store</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="PelangganController.php.html#16"><abbr title="App\Http\Controllers\PelangganController::index">index</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="TagihanController.php.html#53"><abbr title="App\Http\Controllers\TagihanController::generate">generate</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#113"><abbr title="App\Http\Controllers\PenggunaanController::update">update</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="PembayaranController.php.html#132"><abbr title="App\Http\Controllers\PembayaranController::update">update</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#189"><abbr title="App\Http\Controllers\PelangganDashboardController::riwayatPenggunaan">riwayatPenggunaan</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="PelangganController.php.html#94"><abbr title="App\Http\Controllers\PelangganController::update">update</abbr></a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="TarifController.php.html#76"><abbr title="App\Http\Controllers\TarifController::edit">edit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#159"><abbr title="App\Http\Controllers\PenggunaanController::destroy">destroy</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="PelangganController.php.html#32"><abbr title="App\Http\Controllers\PelangganController::create">create</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#81"><abbr title="App\Http\Controllers\PelangganDashboardController::riwayatPembayaran">riwayatPembayaran</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="TarifController.php.html#12"><abbr title="App\Http\Controllers\TarifController::index">index</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="TarifController.php.html#32"><abbr title="App\Http\Controllers\TarifController::create">create</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="TagihanController.php.html#53"><abbr title="App\Http\Controllers\TagihanController::generate">generate</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#47"><abbr title="App\Http\Controllers\PelangganDashboardController::tagihanSaya">tagihanSaya</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="TarifController.php.html#119"><abbr title="App\Http\Controllers\TarifController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Auth/PelangganAuthController.php.html#32"><abbr title="App\Http\Controllers\Auth\PelangganAuthController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PelangganController.php.html#140"><abbr title="App\Http\Controllers\PelangganController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PembayaranController.php.html#115"><abbr title="App\Http\Controllers\PembayaranController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TagihanController.php.html#101"><abbr title="App\Http\Controllers\TagihanController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TagihanController.php.html#135"><abbr title="App\Http\Controllers\TagihanController::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserController.php.html#121"><abbr title="App\Http\Controllers\UserController::destroy">destroy</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="PembayaranController.php.html#170"><abbr title="App\Http\Controllers\PembayaranController::destroy">destroy</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="PembayaranController.php.html#58"><abbr title="App\Http\Controllers\PembayaranController::store">store</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="PelangganController.php.html#16"><abbr title="App\Http\Controllers\PelangganController::index">index</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="PelangganController.php.html#94"><abbr title="App\Http\Controllers\PelangganController::update">update</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="TarifController.php.html#47"><abbr title="App\Http\Controllers\TarifController::store">store</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="TarifController.php.html#90"><abbr title="App\Http\Controllers\TarifController::update">update</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="PenggunaanController.php.html#113"><abbr title="App\Http\Controllers\PenggunaanController::update">update</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Auth/UserAuthController.php.html#51"><abbr title="App\Http\Controllers\Auth\UserAuthController::logout">logout</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="PelangganController.php.html#82"><abbr title="App\Http\Controllers\PelangganController::edit">edit</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="PembayaranController.php.html#132"><abbr title="App\Http\Controllers\PembayaranController::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#127"><abbr title="App\Http\Controllers\PelangganDashboardController::profilSaya">profilSaya</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="PelangganDashboardController.php.html#189"><abbr title="App\Http\Controllers\PelangganDashboardController::riwayatPenggunaan">riwayatPenggunaan</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.10</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.28</a> and <a href="https://phpunit.de/">PHPUnit 11.5.27</a> at Tue Jul 29 17:12:59 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.10" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.10" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.10" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,1,0,1,6,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,2,3,3,1,5,8,6,13], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"Auth\/PelangganAuthController.php.html#13\">App\\Http\\Controllers\\Auth\\PelangganAuthController<\/a>"],[89.65517241379311,9,"<a href=\"Auth\/UserAuthController.php.html#9\">App\\Http\\Controllers\\Auth\\UserAuthController<\/a>"],[100,0,"<a href=\"Controller.php.html#5\">App\\Http\\Controllers\\Controller<\/a>"],[100,2,"<a href=\"DashboardController.php.html#12\">App\\Http\\Controllers\\DashboardController<\/a>"],[82.66666666666667,23,"<a href=\"PelangganController.php.html#11\">App\\Http\\Controllers\\PelangganController<\/a>"],[75,21,"<a href=\"PelangganDashboardController.php.html#15\">App\\Http\\Controllers\\PelangganDashboardController<\/a>"],[85.1063829787234,18,"<a href=\"PembayaranController.php.html#13\">App\\Http\\Controllers\\PembayaranController<\/a>"],[81.52173913043478,18,"<a href=\"PenggunaanController.php.html#10\">App\\Http\\Controllers\\PenggunaanController<\/a>"],[82.75862068965517,18,"<a href=\"TagihanController.php.html#13\">App\\Http\\Controllers\\TagihanController<\/a>"],[58.2089552238806,25,"<a href=\"TarifController.php.html#10\">App\\Http\\Controllers\\TarifController<\/a>"],[81.13207547169812,13,"<a href=\"UserController.php.html#11\">App\\Http\\Controllers\\UserController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Auth\/PelangganAuthController.php.html#20\">App\\Http\\Controllers\\Auth\\PelangganAuthController::showLoginForm<\/a>"],[0,2,"<a href=\"Auth\/PelangganAuthController.php.html#32\">App\\Http\\Controllers\\Auth\\PelangganAuthController::login<\/a>"],[0,1,"<a href=\"Auth\/PelangganAuthController.php.html#61\">App\\Http\\Controllers\\Auth\\PelangganAuthController::logout<\/a>"],[100,1,"<a href=\"Auth\/UserAuthController.php.html#11\">App\\Http\\Controllers\\Auth\\UserAuthController::showLoginForm<\/a>"],[95.23809523809523,5,"<a href=\"Auth\/UserAuthController.php.html#16\">App\\Http\\Controllers\\Auth\\UserAuthController::login<\/a>"],[71.42857142857143,3,"<a href=\"Auth\/UserAuthController.php.html#51\">App\\Http\\Controllers\\Auth\\UserAuthController::logout<\/a>"],[100,1,"<a href=\"DashboardController.php.html#17\">App\\Http\\Controllers\\DashboardController::adminDashboard<\/a>"],[100,1,"<a href=\"DashboardController.php.html#42\">App\\Http\\Controllers\\DashboardController::petugasDashboard<\/a>"],[83.33333333333334,5,"<a href=\"PelangganController.php.html#16\">App\\Http\\Controllers\\PelangganController::index<\/a>"],[0,3,"<a href=\"PelangganController.php.html#32\">App\\Http\\Controllers\\PelangganController::create<\/a>"],[96.15384615384616,3,"<a href=\"PelangganController.php.html#44\">App\\Http\\Controllers\\PelangganController::store<\/a>"],[75,3,"<a href=\"PelangganController.php.html#82\">App\\Http\\Controllers\\PelangganController::edit<\/a>"],[89.65517241379311,5,"<a href=\"PelangganController.php.html#94\">App\\Http\\Controllers\\PelangganController::update<\/a>"],[50,4,"<a href=\"PelangganController.php.html#140\">App\\Http\\Controllers\\PelangganController::destroy<\/a>"],[92.3076923076923,2,"<a href=\"PelangganDashboardController.php.html#20\">App\\Http\\Controllers\\PelangganDashboardController::index<\/a>"],[56.25,5,"<a href=\"PelangganDashboardController.php.html#47\">App\\Http\\Controllers\\PelangganDashboardController::tagihanSaya<\/a>"],[47.82608695652174,6,"<a href=\"PelangganDashboardController.php.html#81\">App\\Http\\Controllers\\PelangganDashboardController::riwayatPembayaran<\/a>"],[80,2,"<a href=\"PelangganDashboardController.php.html#127\">App\\Http\\Controllers\\PelangganDashboardController::profilSaya<\/a>"],[96.15384615384616,4,"<a href=\"PelangganDashboardController.php.html#142\">App\\Http\\Controllers\\PelangganDashboardController::updateProfil<\/a>"],[88.88888888888889,2,"<a href=\"PelangganDashboardController.php.html#189\">App\\Http\\Controllers\\PelangganDashboardController::riwayatPenggunaan<\/a>"],[100,1,"<a href=\"PembayaranController.php.html#18\">App\\Http\\Controllers\\PembayaranController::index<\/a>"],[100,1,"<a href=\"PembayaranController.php.html#41\">App\\Http\\Controllers\\PembayaranController::create<\/a>"],[81.57894736842105,5,"<a href=\"PembayaranController.php.html#58\">App\\Http\\Controllers\\PembayaranController::store<\/a>"],[0,2,"<a href=\"PembayaranController.php.html#115\">App\\Http\\Controllers\\PembayaranController::show<\/a>"],[100,1,"<a href=\"PembayaranController.php.html#123\">App\\Http\\Controllers\\PembayaranController::edit<\/a>"],[88,3,"<a href=\"PembayaranController.php.html#132\">App\\Http\\Controllers\\PembayaranController::update<\/a>"],[70,5,"<a href=\"PembayaranController.php.html#170\">App\\Http\\Controllers\\PembayaranController::destroy<\/a>"],[100,1,"<a href=\"PenggunaanController.php.html#15\">App\\Http\\Controllers\\PenggunaanController::index<\/a>"],[100,1,"<a href=\"PenggunaanController.php.html#30\">App\\Http\\Controllers\\PenggunaanController::create<\/a>"],[96.875,4,"<a href=\"PenggunaanController.php.html#44\">App\\Http\\Controllers\\PenggunaanController::store<\/a>"],[0,1,"<a href=\"PenggunaanController.php.html#89\">App\\Http\\Controllers\\PenggunaanController::show<\/a>"],[0,1,"<a href=\"PenggunaanController.php.html#99\">App\\Http\\Controllers\\PenggunaanController::edit<\/a>"],[87.87878787878788,4,"<a href=\"PenggunaanController.php.html#113\">App\\Http\\Controllers\\PenggunaanController::update<\/a>"],[37.5,6,"<a href=\"PenggunaanController.php.html#159\">App\\Http\\Controllers\\PenggunaanController::destroy<\/a>"],[100,1,"<a href=\"TagihanController.php.html#18\">App\\Http\\Controllers\\TagihanController::index<\/a>"],[100,1,"<a href=\"TagihanController.php.html#36\">App\\Http\\Controllers\\TagihanController::createFromPenggunaan<\/a>"],[83.33333333333334,7,"<a href=\"TagihanController.php.html#53\">App\\Http\\Controllers\\TagihanController::generate<\/a>"],[0,2,"<a href=\"TagihanController.php.html#101\">App\\Http\\Controllers\\TagihanController::show<\/a>"],[0,1,"<a href=\"TagihanController.php.html#109\">App\\Http\\Controllers\\TagihanController::edit<\/a>"],[100,2,"<a href=\"TagihanController.php.html#118\">App\\Http\\Controllers\\TagihanController::update<\/a>"],[50,4,"<a href=\"TagihanController.php.html#135\">App\\Http\\Controllers\\TagihanController::destroy<\/a>"],[40,5,"<a href=\"TarifController.php.html#12\">App\\Http\\Controllers\\TarifController::index<\/a>"],[33.33333333333333,4,"<a href=\"TarifController.php.html#32\">App\\Http\\Controllers\\TarifController::create<\/a>"],[78.94736842105263,4,"<a href=\"TarifController.php.html#47\">App\\Http\\Controllers\\TarifController::store<\/a>"],[0,4,"<a href=\"TarifController.php.html#76\">App\\Http\\Controllers\\TarifController::edit<\/a>"],[78.94736842105263,4,"<a href=\"TarifController.php.html#90\">App\\Http\\Controllers\\TarifController::update<\/a>"],[42.857142857142854,4,"<a href=\"TarifController.php.html#119\">App\\Http\\Controllers\\TarifController::destroy<\/a>"],[100,1,"<a href=\"UserController.php.html#16\">App\\Http\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"UserController.php.html#29\">App\\Http\\Controllers\\UserController::create<\/a>"],[100,1,"<a href=\"UserController.php.html#39\">App\\Http\\Controllers\\UserController::store<\/a>"],[0,1,"<a href=\"UserController.php.html#66\">App\\Http\\Controllers\\UserController::show<\/a>"],[0,1,"<a href=\"UserController.php.html#75\">App\\Http\\Controllers\\UserController::edit<\/a>"],[90,3,"<a href=\"UserController.php.html#85\">App\\Http\\Controllers\\UserController::update<\/a>"],[66.66666666666666,5,"<a href=\"UserController.php.html#121\">App\\Http\\Controllers\\UserController::destroy<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
